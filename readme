@@ -1,0 +1,13 @@
+This repository contains scripts used in Hattery et al.
+
+1_metab_anova.R: Conducts ANOVAs for metabolite traits, calculate heritabilities, store to data frames
+
+2_blup.R: Plots raw data and gives summary statistics as well as run a random effects model. Make many plots and also outputs a BLUP data file.
+
+3_spearman.R: Uses BLUP data to conduct Spearman correlations, output to data frame
+
+4_tsne_pca.R: Conduct PCA and tSNE, output loadings
+
+5_loess.R: LOESS-transform weather parameter data, create histogram of correlation between GDD-windows
+
+6_wthr_anova.R: Conduct ANOVAs between metabolites and weather parameter GDD intervals
